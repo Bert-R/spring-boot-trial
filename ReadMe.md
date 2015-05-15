@@ -18,7 +18,7 @@ To build the project, type `gradlew` in the root folder. Running it is equally s
 Initially, your database (stored as `database` in folder where you run the project) will be empty. To create a new product, do an HTTP `POST` like this:
 ```JSON
 {
-	"productName":"Shoes"
+	"productName":"Shoe"
 }
 ```
 on the URL http://localhost:8080/products using ``Content-Type:application/json``. This product will be assigned the ID 1. You can `GET` it from http://localhost:8080/products/1.
